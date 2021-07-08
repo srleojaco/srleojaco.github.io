@@ -1,0 +1,11 @@
+
+###########################################################################################
+#             This page is not intended for being archived or indexed.                    #
+#                                                                                         #
+#   This page is intended for providing reference for those users who manually type it.   #
+#    It means that it's useful for specific public but is not general-public interest.    #
+###########################################################################################
+
+
+User-agent: *
+Disallow: /
