@@ -1,1 +1,133 @@
-Working...
+<!DOCTYPE html>
+<html lang="en"><head>
+	<!-- general html --> 
+	
+	<title>Leo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	
+	<!-- css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css" crossorigin="anonymous">
+	
+	
+	<!-- css editing -->
+	
+	<style>
+		
+		
+		body {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		background-color: #eee;
+		}
+		
+		.row {
+		margin-bottom: 1rem;
+		}
+		.row .row {
+		margin-top: 1rem;
+		margin-bottom: 0;
+		}
+		[class*="col-"] {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		}
+		
+	</style>
+	
+	<!-- language -->
+	
+	<style>
+		#eng {
+		display: none;
+		}
+		
+		#esp {
+		display: none;
+		
+		}
+	</style>
+	
+</head>
+<body>
+	
+	<!-- main content -->
+	<div class="container">
+		<div class="row">
+			
+			<div class="col">
+			</div>
+			<div class="col-6 mt-5">
+				<div class="card">
+					<div class="card-body">
+						<div class="tab-content" id="v-pills-tabContent">								
+							
+							<!-- eng pill -->
+							<div class="tab-pane fade show active" id="eng" role="tabpanel" aria-labelledby="v-home">
+								
+								<h1>Hi! I'm Leo</h1>
+								
+								<p>Feel free to contact me for any inquiries.</p>
+								
+								
+								<label class="sr-only" for="inlineFormInputGroup">Email</label>
+								<div class="input-group mb-2">
+									<div class="input-group-prepend">
+										<div class="input-group-text"><i class="fas fa-envelope"></i></div>
+									</div>
+									<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="leo@librecraft.com" value="leo@librecraft.com">
+								</div>
+								
+								
+							</div>							
+							<!-- /eng pill -->
+							
+							
+							<!-- esp pill -->
+							<div class="tab-pane fade show active" id="esp" role="tabpanel" aria-labelledby="v-home">
+								
+								<h1>¡Hola! Soy Leo</h1>
+								
+								<p>Aquí tienes mi correo por si necesitas contactarme</p>
+								
+								
+								<label class="sr-only" for="inlineFormInputGroup">Correo</label>
+								<div class="input-group mb-2">
+									<div class="input-group-prepend">
+										<div class="input-group-text"><i class="fas fa-envelope"></i></div>
+									</div>
+									<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="leo@librecraft.com" value="leo@librecraft.com">
+								</div>
+								
+								
+							</div>							
+							<!-- /esp pill -->
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+			</div>
+		</div>
+	</div>
+	
+	<!-- js -->
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	
+	<!-- language -->
+	<script>
+		var userLang = navigator.language || navigator.userLanguage;
+		
+		if (userLang == "es") {
+			$("#esp").show();
+			} else {
+			$("#eng").show();
+		}
+	</script>
+	
+	
+</body></html>	
